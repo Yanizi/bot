@@ -52,6 +52,7 @@
 - help - 帮助
 - key - 充值卡密
 - my_id  - 获取用户id
+- add_key - 添加卡密
 
 
 
