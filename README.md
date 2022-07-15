@@ -15,6 +15,34 @@
 ## 配置文件 tgbot/coonfig.py
 - 设置机器人的TOKEN
 - 设置redis地址
+  - 0号库 - 临时数据
+  - 3号库  - 存储卡密
+  - 5号库 - 存储会员用户, 积分
+  - 8号库 - 存储管理员id
+
+
+
+### 添加管理员
+
+> 格式：admin_用户id  值随便，如1
+
+
+
+### 添加卡密
+
+> 换行区分不同卡密，空格自动去除
+
+<div align="center">
+    <img src="https://github.com/Yanizi/bot/blob/main/img/QQ%E6%88%AA%E5%9B%BE20220715150619.png?raw=true">
+</div>
+
+
+
+
+### 卡密面额
+
+> 输入错误使用配置里默认值
+
 
 
 
@@ -23,6 +51,15 @@
 - start - 开始
 - help - 帮助
 - key - 充值卡密
+- my_id  - 获取用户id
+
+
+
+
+
+
+
+
 
 
 ## 测试卡密
