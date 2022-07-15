@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img src="https://github.com/Yanizi/bot/blob/main/536083.png?raw=true">
+    <img src="https://github.com/Yanizi/bot/blob/main/img/536083.png?raw=true">
 </div>
 
 
