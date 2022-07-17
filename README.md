@@ -16,12 +16,32 @@
 - 设置机器人的TOKEN
 - 设置redis地址
   - 0号库 - 临时数据
-  - 1号库 - 存储服务的开关值
+  - 1号库 - 存储服务的开关值  
+    - /on_of
   - 2号库 -  存储post
     - 使用的post 微信群和微信用户通用
   - 3号库  - 存储卡密
+    - /add_key
   - 5号库 - 存储会员用户, 积分
   - 8号库 - 存储管理员id
+    - 格式admin_id
+
+
+
+
+
+```python
+# 卡密默认面额, 当管理员输入错误的数额时使用
+WECHAT_KEY_SIZE = 100
+
+# 每次查询的扣除数额 
+WECHAT_KEY_DEDUCTION_AMOUNT = 10
+
+# 使用官方POST扣除的数额
+OFFICIAL_POST_DEDUCTION_AMOUNT = 5
+```
+
+
 
 
 
